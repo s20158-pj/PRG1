@@ -1,18 +1,18 @@
-#include <iostream> //kamil surma patryk klimek
+#include <iostream> //kamil surma patryk klimek // poprawka w domu Patryk Klimek
 using namespace std;
 int main(){
-
-int i;
-int suma;
-cin >> i;
-do
-{
-cout << suma +=i;
-while(i!=0)
-
-count
- 
-
-
-return 0;
+    
+    cout << "Podaj cyfre" << endl;
+    int i;
+    int suma;
+    suma = 0;
+    do{
+        cin >> i;
+        suma += i;
+    }
+    while(i!=0);
+    
+    cout << suma;
+    
+    return 0;
 }
