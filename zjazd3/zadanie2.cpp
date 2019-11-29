@@ -45,14 +45,14 @@ int main(){
   s5 = s5/5;
 
   if(s1 > k/25)
-    cout << s1 << endl;
+    cout << 1 << endl;
   if(s2 > k/25)
-    cout << s2 << endl;
+    cout << 2 << endl;
   if(s3 > k/25)
-    cout << s3 << endl;
+    cout << 3 << endl;
   if(s4 > k/25)
-    cout << s4 << endl;
+    cout << 4 << endl;
   if(s5 > k/25)
-    cout << s5 << endl;
+    cout << 5 << endl;
   return 0;
 }

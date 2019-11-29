@@ -1,16 +1,23 @@
 #include <iostream>
-using namespace std;
+#include <cstdlib>
 
-int main(){
+using std::string;
+using std::cout;
+using std::cin;
+using std::endl;
+int main()
+{
+int i=0;
+int j=0;
+int tab[9];
+for(;i<9;i++){
+cin>>tab[i];
+}
+while (j<9)
+{
+cout<<tab[j]<<" "<<tab[j+1]<<" "<<tab[j+2]<<endl;
+j=j+3;
+}
 
-  int x[3][3];
-  int i = 0;
-  int j = 0;
-  for(i=0; i<=2; i++){
-    for(j=0; j<=2; j++){
-      cin >> x[i][j];
-    }
-  }
-  cout << x[i][j];
 return 0;
 }

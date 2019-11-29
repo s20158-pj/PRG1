@@ -8,6 +8,6 @@ cin >> i;
 do{
 
 cout << i;
-} while(i--)
+} while(i--);
 return 0;
 }

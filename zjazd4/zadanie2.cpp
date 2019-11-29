@@ -16,18 +16,21 @@ int main()
     		cin>>tab[i][j];
 	}
   }
- 
   for(i=0;i<3;i++){
     for(j=0;j<3;j++){
 	cin>>tab2[i][j];
 	}
   }
-j=0;
+
  for(i=0;i<3;i++){
-	tab3[i][j]=tab[i][j]*tab2[i][j];
-	tab3[i][j]+=tab[i][j+1]*tab2[i+1][j];
-	tab3[i][j]+=tab[i][j+2]*tab2[i+2][j];	
- } 
+	for(j=0;j<3;j++){
+	tab3[i][j]=0;
+	  for(k=0;k<3;k++){
+	    tab3[i][j]+=tab[i][k]*tab2[k][j];
+
+	  }
+	}
+ }
 for(i=0;i<3;i++){
 	for(j=0;j<3;j++){
 	cout<<tab3[i][j]<<" ";
