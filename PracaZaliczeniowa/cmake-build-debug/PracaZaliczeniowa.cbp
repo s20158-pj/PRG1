@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="PracaZaliczeniowa"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PracaZaliczeniowa">
+				<Option output="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/PracaZaliczeniowa" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/Makefile&quot;  VERBOSE=1 PracaZaliczeniowa"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PracaZaliczeniowa/fast">
+				<Option output="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/PracaZaliczeniowa" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/Makefile&quot;  VERBOSE=1 PracaZaliczeniowa/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Character.cpp">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Character.h">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Field.h">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Forest.cpp">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Forest.h">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Lake.cpp">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Lake.h">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Map.cpp">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Map.h">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Mountain.cpp">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Mountain.h">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Moving.cpp">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Moving.h">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Sea.cpp">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Sea.h">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/main.cpp">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

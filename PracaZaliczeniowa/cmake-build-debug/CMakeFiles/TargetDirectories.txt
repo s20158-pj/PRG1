@@ -1,0 +1,3 @@
+/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/CMakeFiles/PracaZaliczeniowa.dir
+/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/CMakeFiles/edit_cache.dir

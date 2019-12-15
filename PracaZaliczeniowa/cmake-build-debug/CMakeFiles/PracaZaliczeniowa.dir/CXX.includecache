@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Character.h
+string
+-
+vector
+-
+
+/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Field.h
+string
+-
+
+/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Lake.h
+Field.h
+/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Field.h
+
+/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Map.h
+iostream
+-
+string
+-
+
+/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/main.cpp
+iostream
+-
+Character.h
+/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Character.h
+Lake.h
+/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Lake.h
+Map.h
+/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Map.h
+
