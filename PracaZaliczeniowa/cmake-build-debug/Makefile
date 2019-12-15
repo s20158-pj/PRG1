@@ -177,6 +177,33 @@ Forest.cpp.s:
 	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Forest.cpp.s
 .PHONY : Forest.cpp.s
 
+Game.o: Game.cpp.o
+
+.PHONY : Game.o
+
+# target to build an object file
+Game.cpp.o:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Game.cpp.o
+.PHONY : Game.cpp.o
+
+Game.i: Game.cpp.i
+
+.PHONY : Game.i
+
+# target to preprocess a source file
+Game.cpp.i:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Game.cpp.i
+.PHONY : Game.cpp.i
+
+Game.s: Game.cpp.s
+
+.PHONY : Game.s
+
+# target to generate assembly for a file
+Game.cpp.s:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Game.cpp.s
+.PHONY : Game.cpp.s
+
 Lake.o: Lake.cpp.o
 
 .PHONY : Lake.o
@@ -354,6 +381,9 @@ help:
 	@echo "... Forest.o"
 	@echo "... Forest.i"
 	@echo "... Forest.s"
+	@echo "... Game.o"
+	@echo "... Game.i"
+	@echo "... Game.s"
 	@echo "... Lake.o"
 	@echo "... Lake.i"
 	@echo "... Lake.s"

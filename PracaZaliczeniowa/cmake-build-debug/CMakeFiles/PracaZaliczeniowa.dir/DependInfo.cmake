@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Character.cpp" "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/CMakeFiles/PracaZaliczeniowa.dir/Character.cpp.o"
   "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Forest.cpp" "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/CMakeFiles/PracaZaliczeniowa.dir/Forest.cpp.o"
+  "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Game.cpp" "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/CMakeFiles/PracaZaliczeniowa.dir/Game.cpp.o"
   "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Lake.cpp" "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/CMakeFiles/PracaZaliczeniowa.dir/Lake.cpp.o"
   "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Map.cpp" "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/CMakeFiles/PracaZaliczeniowa.dir/Map.cpp.o"
   "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Mountain.cpp" "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/CMakeFiles/PracaZaliczeniowa.dir/Mountain.cpp.o"

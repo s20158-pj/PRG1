@@ -99,6 +99,12 @@
 		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Forest.h">
 			<Option target="PracaZaliczeniowa"/>
 		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Game.cpp">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Game.h">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
 		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Lake.cpp">
 			<Option target="PracaZaliczeniowa"/>
 		</Unit>

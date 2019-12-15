@@ -11,6 +11,7 @@ class Moving {
 
 public:
     void setMove(int move);
+    void makeMove();
 
 };
 
