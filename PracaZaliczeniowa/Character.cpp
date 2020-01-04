@@ -20,4 +20,3 @@ int Character::getYCoord(){
 void Character::setYCoord(int yCoord){
     itsYCoord = yCoord;
 }
-

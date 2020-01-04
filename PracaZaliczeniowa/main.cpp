@@ -1,19 +1,18 @@
 #include <iostream>
 #include "Character.h"
 #include "Map.h"
-#include "Moving.h"
+#include "Move.h"
+#include "Game.h"
 
 using namespace std;
 
 int main() {
-    int move;
-    Character Hero;
-    Hero.setXCoord(4);
-    Hero.setYCoord(4);
-    cout << "Jesteś w :" << Hero.getXCoord() << ", " << Hero.getYCoord() << endl;
-    cout << "Gdzie chcesz iść\n";
-    cout << "1)Północ 2)Południe 3)Wschód 4)Zachód: ";
-    Moving moving;
+    Game game;
+    game.startGame();
+
+
+
+    Move moving;
     cin >> move;
     moving.setMove(move);
 

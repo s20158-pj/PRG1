@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/98/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/99/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/98/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/99/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -148,18 +148,18 @@ CMakeFiles/PracaZaliczeniowa.dir/Sea.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PracaZaliczeniowa.dir/Sea.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Sea.cpp -o CMakeFiles/PracaZaliczeniowa.dir/Sea.cpp.s
 
-CMakeFiles/PracaZaliczeniowa.dir/Moving.cpp.o: CMakeFiles/PracaZaliczeniowa.dir/flags.make
-CMakeFiles/PracaZaliczeniowa.dir/Moving.cpp.o: ../Moving.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/PracaZaliczeniowa.dir/Moving.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PracaZaliczeniowa.dir/Moving.cpp.o -c /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Moving.cpp
+CMakeFiles/PracaZaliczeniowa.dir/Move.cpp.o: CMakeFiles/PracaZaliczeniowa.dir/flags.make
+CMakeFiles/PracaZaliczeniowa.dir/Move.cpp.o: ../Move.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/PracaZaliczeniowa.dir/Move.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PracaZaliczeniowa.dir/Move.cpp.o -c /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Move.cpp
 
-CMakeFiles/PracaZaliczeniowa.dir/Moving.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PracaZaliczeniowa.dir/Moving.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Moving.cpp > CMakeFiles/PracaZaliczeniowa.dir/Moving.cpp.i
+CMakeFiles/PracaZaliczeniowa.dir/Move.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PracaZaliczeniowa.dir/Move.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Move.cpp > CMakeFiles/PracaZaliczeniowa.dir/Move.cpp.i
 
-CMakeFiles/PracaZaliczeniowa.dir/Moving.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PracaZaliczeniowa.dir/Moving.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Moving.cpp -o CMakeFiles/PracaZaliczeniowa.dir/Moving.cpp.s
+CMakeFiles/PracaZaliczeniowa.dir/Move.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PracaZaliczeniowa.dir/Move.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Move.cpp -o CMakeFiles/PracaZaliczeniowa.dir/Move.cpp.s
 
 CMakeFiles/PracaZaliczeniowa.dir/Game.cpp.o: CMakeFiles/PracaZaliczeniowa.dir/flags.make
 CMakeFiles/PracaZaliczeniowa.dir/Game.cpp.o: ../Game.cpp
@@ -183,7 +183,7 @@ PracaZaliczeniowa_OBJECTS = \
 "CMakeFiles/PracaZaliczeniowa.dir/Mountain.cpp.o" \
 "CMakeFiles/PracaZaliczeniowa.dir/Forest.cpp.o" \
 "CMakeFiles/PracaZaliczeniowa.dir/Sea.cpp.o" \
-"CMakeFiles/PracaZaliczeniowa.dir/Moving.cpp.o" \
+"CMakeFiles/PracaZaliczeniowa.dir/Move.cpp.o" \
 "CMakeFiles/PracaZaliczeniowa.dir/Game.cpp.o"
 
 # External object files for target PracaZaliczeniowa
@@ -196,7 +196,7 @@ PracaZaliczeniowa: CMakeFiles/PracaZaliczeniowa.dir/Map.cpp.o
 PracaZaliczeniowa: CMakeFiles/PracaZaliczeniowa.dir/Mountain.cpp.o
 PracaZaliczeniowa: CMakeFiles/PracaZaliczeniowa.dir/Forest.cpp.o
 PracaZaliczeniowa: CMakeFiles/PracaZaliczeniowa.dir/Sea.cpp.o
-PracaZaliczeniowa: CMakeFiles/PracaZaliczeniowa.dir/Moving.cpp.o
+PracaZaliczeniowa: CMakeFiles/PracaZaliczeniowa.dir/Move.cpp.o
 PracaZaliczeniowa: CMakeFiles/PracaZaliczeniowa.dir/Game.cpp.o
 PracaZaliczeniowa: CMakeFiles/PracaZaliczeniowa.dir/build.make
 PracaZaliczeniowa: CMakeFiles/PracaZaliczeniowa.dir/link.txt

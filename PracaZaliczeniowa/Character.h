@@ -12,10 +12,10 @@ using namespace std;
 class Character {
     int itsXCoord;
     int itsYCoord;
-    bool finished=false;
     vector <string> inventory;
 
 public:
+    bool finished=false;
     int getXCoord();
     void setXCoord(int itsXCoord);
     int getYCoord();

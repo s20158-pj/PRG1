@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/98/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/99/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/98/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/99/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-de
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/98/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/99/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/98/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/99/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -285,32 +285,32 @@ Mountain.cpp.s:
 	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Mountain.cpp.s
 .PHONY : Mountain.cpp.s
 
-Moving.o: Moving.cpp.o
+Move.o: Move.cpp.o
 
-.PHONY : Moving.o
+.PHONY : Move.o
 
 # target to build an object file
-Moving.cpp.o:
-	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Moving.cpp.o
-.PHONY : Moving.cpp.o
+Move.cpp.o:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Move.cpp.o
+.PHONY : Move.cpp.o
 
-Moving.i: Moving.cpp.i
+Move.i: Move.cpp.i
 
-.PHONY : Moving.i
+.PHONY : Move.i
 
 # target to preprocess a source file
-Moving.cpp.i:
-	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Moving.cpp.i
-.PHONY : Moving.cpp.i
+Move.cpp.i:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Move.cpp.i
+.PHONY : Move.cpp.i
 
-Moving.s: Moving.cpp.s
+Move.s: Move.cpp.s
 
-.PHONY : Moving.s
+.PHONY : Move.s
 
 # target to generate assembly for a file
-Moving.cpp.s:
-	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Moving.cpp.s
-.PHONY : Moving.cpp.s
+Move.cpp.s:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Move.cpp.s
+.PHONY : Move.cpp.s
 
 Sea.o: Sea.cpp.o
 
@@ -393,9 +393,9 @@ help:
 	@echo "... Mountain.o"
 	@echo "... Mountain.i"
 	@echo "... Mountain.s"
-	@echo "... Moving.o"
-	@echo "... Moving.i"
-	@echo "... Moving.s"
+	@echo "... Move.o"
+	@echo "... Move.i"
+	@echo "... Move.s"
 	@echo "... Sea.o"
 	@echo "... Sea.i"
 	@echo "... Sea.s"

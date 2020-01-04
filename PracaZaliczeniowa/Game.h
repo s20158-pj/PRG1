@@ -5,9 +5,12 @@
 #ifndef PRACAZALICZENIOWA_GAME_H
 #define PRACAZALICZENIOWA_GAME_H
 
+#include "Character.h"
+#include "Map.h"
 
 class Game {
-
+public:
+    void startGame();
 };
 
 

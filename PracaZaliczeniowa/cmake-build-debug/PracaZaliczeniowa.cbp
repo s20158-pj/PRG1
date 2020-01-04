@@ -123,10 +123,10 @@
 		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Mountain.h">
 			<Option target="PracaZaliczeniowa"/>
 		</Unit>
-		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Moving.cpp">
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Move.cpp">
 			<Option target="PracaZaliczeniowa"/>
 		</Unit>
-		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Moving.h">
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Move.h">
 			<Option target="PracaZaliczeniowa"/>
 		</Unit>
 		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Sea.cpp">

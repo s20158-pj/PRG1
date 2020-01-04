@@ -6,6 +6,3 @@
 #include <iostream>
 #include <string>
 using namespace std;
-//string Map::getField(){
-//    return map;
-//}

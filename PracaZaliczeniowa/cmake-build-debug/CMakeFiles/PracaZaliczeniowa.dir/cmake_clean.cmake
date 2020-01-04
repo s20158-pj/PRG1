@@ -5,7 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/PracaZaliczeniowa.dir/Lake.cpp.o"
   "CMakeFiles/PracaZaliczeniowa.dir/Map.cpp.o"
   "CMakeFiles/PracaZaliczeniowa.dir/Mountain.cpp.o"
-  "CMakeFiles/PracaZaliczeniowa.dir/Moving.cpp.o"
+  "CMakeFiles/PracaZaliczeniowa.dir/Move.cpp.o"
   "CMakeFiles/PracaZaliczeniowa.dir/Sea.cpp.o"
   "CMakeFiles/PracaZaliczeniowa.dir/main.cpp.o"
   "PracaZaliczeniowa"

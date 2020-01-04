@@ -15,8 +15,6 @@ public:
                         {"s", "m", "m", "f", "l", "l", "s"}, {"s", "f", "m", "f", "l", "f", "s"}, {"s", "f", "f", "f", "f", "f", "s"},
                         {"s", "s", "s", "s", "s", "s", "s"}};
 
-//public:
-//    string getField();
 };
 
 
