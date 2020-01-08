@@ -12,13 +12,18 @@ using namespace std;
 class Character {
     int itsXCoord;
     int itsYCoord;
-    vector <string> inventory;
+    int exp;
+    vector<string> inventory;
 
 public:
-    bool finished=false;
+    bool finished = false;
+
     int getXCoord();
+
     void setXCoord(int itsXCoord);
+
     int getYCoord();
+
     void setYCoord(int itsYCoord);
 };
 

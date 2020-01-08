@@ -7,19 +7,6 @@
 using namespace std;
 
 int main() {
-    Game game;
-    game.startGame();
-
-
-
-    Move moving;
-    cin >> move;
-    moving.setMove(move);
-
-    Map mapa;
-    cout << mapa.map[Hero.getXCoord()][Hero.getYCoord()];
-
-
-    cout << "Jesteś w : " << Hero.getXCoord() << ", " << Hero.getYCoord();
+    Game::startGame();
     return 0;
 }

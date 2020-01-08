@@ -5,7 +5,7 @@
 #ifndef PRACAZALICZENIOWA_LAKE_H
 #define PRACAZALICZENIOWA_LAKE_H
 
-
+#include <iostream>
 #include "Field.h"
 
 class Lake: public Field {

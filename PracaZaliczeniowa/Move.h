@@ -9,15 +9,15 @@
 #include "Character.h"
 
 class Move {
-    int x,y;
+    int x, y;
 
 public:
-    void move(int move, Character);
+    void move(int move);
+
     int getX();
+
     int getY();
 };
-
-
 
 
 #endif //PRACAZALICZENIOWA_MOVE_H

@@ -7,10 +7,13 @@
 
 #include "Character.h"
 #include "Map.h"
+#include "Move.h"
+#include "FieldFactory.h"
 
 class Game {
 public:
-    void startGame();
+
+    static void startGame();
 };
 
 

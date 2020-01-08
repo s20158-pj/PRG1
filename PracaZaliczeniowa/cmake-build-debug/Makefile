@@ -123,6 +123,33 @@ PracaZaliczeniowa/fast:
 	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/build
 .PHONY : PracaZaliczeniowa/fast
 
+BattleFactory.o: BattleFactory.cpp.o
+
+.PHONY : BattleFactory.o
+
+# target to build an object file
+BattleFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/BattleFactory.cpp.o
+.PHONY : BattleFactory.cpp.o
+
+BattleFactory.i: BattleFactory.cpp.i
+
+.PHONY : BattleFactory.i
+
+# target to preprocess a source file
+BattleFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/BattleFactory.cpp.i
+.PHONY : BattleFactory.cpp.i
+
+BattleFactory.s: BattleFactory.cpp.s
+
+.PHONY : BattleFactory.s
+
+# target to generate assembly for a file
+BattleFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/BattleFactory.cpp.s
+.PHONY : BattleFactory.cpp.s
+
 Character.o: Character.cpp.o
 
 .PHONY : Character.o
@@ -149,6 +176,60 @@ Character.s: Character.cpp.s
 Character.cpp.s:
 	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Character.cpp.s
 .PHONY : Character.cpp.s
+
+FactoryChoose.o: FactoryChoose.cpp.o
+
+.PHONY : FactoryChoose.o
+
+# target to build an object file
+FactoryChoose.cpp.o:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/FactoryChoose.cpp.o
+.PHONY : FactoryChoose.cpp.o
+
+FactoryChoose.i: FactoryChoose.cpp.i
+
+.PHONY : FactoryChoose.i
+
+# target to preprocess a source file
+FactoryChoose.cpp.i:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/FactoryChoose.cpp.i
+.PHONY : FactoryChoose.cpp.i
+
+FactoryChoose.s: FactoryChoose.cpp.s
+
+.PHONY : FactoryChoose.s
+
+# target to generate assembly for a file
+FactoryChoose.cpp.s:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/FactoryChoose.cpp.s
+.PHONY : FactoryChoose.cpp.s
+
+FieldFactory.o: FieldFactory.cpp.o
+
+.PHONY : FieldFactory.o
+
+# target to build an object file
+FieldFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/FieldFactory.cpp.o
+.PHONY : FieldFactory.cpp.o
+
+FieldFactory.i: FieldFactory.cpp.i
+
+.PHONY : FieldFactory.i
+
+# target to preprocess a source file
+FieldFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/FieldFactory.cpp.i
+.PHONY : FieldFactory.cpp.i
+
+FieldFactory.s: FieldFactory.cpp.s
+
+.PHONY : FieldFactory.s
+
+# target to generate assembly for a file
+FieldFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/FieldFactory.cpp.s
+.PHONY : FieldFactory.cpp.s
 
 Forest.o: Forest.cpp.o
 
@@ -203,6 +284,33 @@ Game.s: Game.cpp.s
 Game.cpp.s:
 	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Game.cpp.s
 .PHONY : Game.cpp.s
+
+Goblin.o: Goblin.cpp.o
+
+.PHONY : Goblin.o
+
+# target to build an object file
+Goblin.cpp.o:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Goblin.cpp.o
+.PHONY : Goblin.cpp.o
+
+Goblin.i: Goblin.cpp.i
+
+.PHONY : Goblin.i
+
+# target to preprocess a source file
+Goblin.cpp.i:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Goblin.cpp.i
+.PHONY : Goblin.cpp.i
+
+Goblin.s: Goblin.cpp.s
+
+.PHONY : Goblin.s
+
+# target to generate assembly for a file
+Goblin.cpp.s:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Goblin.cpp.s
+.PHONY : Goblin.cpp.s
 
 Lake.o: Lake.cpp.o
 
@@ -312,6 +420,33 @@ Move.cpp.s:
 	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Move.cpp.s
 .PHONY : Move.cpp.s
 
+Rat.o: Rat.cpp.o
+
+.PHONY : Rat.o
+
+# target to build an object file
+Rat.cpp.o:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Rat.cpp.o
+.PHONY : Rat.cpp.o
+
+Rat.i: Rat.cpp.i
+
+.PHONY : Rat.i
+
+# target to preprocess a source file
+Rat.cpp.i:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Rat.cpp.i
+.PHONY : Rat.cpp.i
+
+Rat.s: Rat.cpp.s
+
+.PHONY : Rat.s
+
+# target to generate assembly for a file
+Rat.cpp.s:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Rat.cpp.s
+.PHONY : Rat.cpp.s
+
 Sea.o: Sea.cpp.o
 
 .PHONY : Sea.o
@@ -338,6 +473,33 @@ Sea.s: Sea.cpp.s
 Sea.cpp.s:
 	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Sea.cpp.s
 .PHONY : Sea.cpp.s
+
+Wolf.o: Wolf.cpp.o
+
+.PHONY : Wolf.o
+
+# target to build an object file
+Wolf.cpp.o:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Wolf.cpp.o
+.PHONY : Wolf.cpp.o
+
+Wolf.i: Wolf.cpp.i
+
+.PHONY : Wolf.i
+
+# target to preprocess a source file
+Wolf.cpp.i:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Wolf.cpp.i
+.PHONY : Wolf.cpp.i
+
+Wolf.s: Wolf.cpp.s
+
+.PHONY : Wolf.s
+
+# target to generate assembly for a file
+Wolf.cpp.s:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Wolf.cpp.s
+.PHONY : Wolf.cpp.s
 
 main.o: main.cpp.o
 
@@ -375,15 +537,27 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... PracaZaliczeniowa"
 	@echo "... edit_cache"
+	@echo "... BattleFactory.o"
+	@echo "... BattleFactory.i"
+	@echo "... BattleFactory.s"
 	@echo "... Character.o"
 	@echo "... Character.i"
 	@echo "... Character.s"
+	@echo "... FactoryChoose.o"
+	@echo "... FactoryChoose.i"
+	@echo "... FactoryChoose.s"
+	@echo "... FieldFactory.o"
+	@echo "... FieldFactory.i"
+	@echo "... FieldFactory.s"
 	@echo "... Forest.o"
 	@echo "... Forest.i"
 	@echo "... Forest.s"
 	@echo "... Game.o"
 	@echo "... Game.i"
 	@echo "... Game.s"
+	@echo "... Goblin.o"
+	@echo "... Goblin.i"
+	@echo "... Goblin.s"
 	@echo "... Lake.o"
 	@echo "... Lake.i"
 	@echo "... Lake.s"
@@ -396,9 +570,15 @@ help:
 	@echo "... Move.o"
 	@echo "... Move.i"
 	@echo "... Move.s"
+	@echo "... Rat.o"
+	@echo "... Rat.i"
+	@echo "... Rat.s"
 	@echo "... Sea.o"
 	@echo "... Sea.i"
 	@echo "... Sea.s"
+	@echo "... Wolf.o"
+	@echo "... Wolf.i"
+	@echo "... Wolf.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

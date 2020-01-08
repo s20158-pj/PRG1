@@ -84,13 +84,31 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/BattleFactory.cpp">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/BattleFactory.h">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
 		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Character.cpp">
 			<Option target="PracaZaliczeniowa"/>
 		</Unit>
 		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Character.h">
 			<Option target="PracaZaliczeniowa"/>
 		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/FactoryChoose.cpp">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/FactoryChoose.h">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
 		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Field.h">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/FieldFactory.cpp">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/FieldFactory.h">
 			<Option target="PracaZaliczeniowa"/>
 		</Unit>
 		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Forest.cpp">
@@ -105,6 +123,12 @@
 		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Game.h">
 			<Option target="PracaZaliczeniowa"/>
 		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Goblin.cpp">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Goblin.h">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
 		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Lake.cpp">
 			<Option target="PracaZaliczeniowa"/>
 		</Unit>
@@ -115,6 +139,9 @@
 			<Option target="PracaZaliczeniowa"/>
 		</Unit>
 		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Map.h">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Monster.h">
 			<Option target="PracaZaliczeniowa"/>
 		</Unit>
 		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Mountain.cpp">
@@ -129,10 +156,22 @@
 		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Move.h">
 			<Option target="PracaZaliczeniowa"/>
 		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Rat.cpp">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Rat.h">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
 		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Sea.cpp">
 			<Option target="PracaZaliczeniowa"/>
 		</Unit>
 		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Sea.h">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Wolf.cpp">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Wolf.h">
 			<Option target="PracaZaliczeniowa"/>
 		</Unit>
 		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/main.cpp">

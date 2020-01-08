@@ -174,6 +174,84 @@ CMakeFiles/PracaZaliczeniowa.dir/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PracaZaliczeniowa.dir/Game.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Game.cpp -o CMakeFiles/PracaZaliczeniowa.dir/Game.cpp.s
 
+CMakeFiles/PracaZaliczeniowa.dir/FieldFactory.cpp.o: CMakeFiles/PracaZaliczeniowa.dir/flags.make
+CMakeFiles/PracaZaliczeniowa.dir/FieldFactory.cpp.o: ../FieldFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/PracaZaliczeniowa.dir/FieldFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PracaZaliczeniowa.dir/FieldFactory.cpp.o -c /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/FieldFactory.cpp
+
+CMakeFiles/PracaZaliczeniowa.dir/FieldFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PracaZaliczeniowa.dir/FieldFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/FieldFactory.cpp > CMakeFiles/PracaZaliczeniowa.dir/FieldFactory.cpp.i
+
+CMakeFiles/PracaZaliczeniowa.dir/FieldFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PracaZaliczeniowa.dir/FieldFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/FieldFactory.cpp -o CMakeFiles/PracaZaliczeniowa.dir/FieldFactory.cpp.s
+
+CMakeFiles/PracaZaliczeniowa.dir/Rat.cpp.o: CMakeFiles/PracaZaliczeniowa.dir/flags.make
+CMakeFiles/PracaZaliczeniowa.dir/Rat.cpp.o: ../Rat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/PracaZaliczeniowa.dir/Rat.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PracaZaliczeniowa.dir/Rat.cpp.o -c /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Rat.cpp
+
+CMakeFiles/PracaZaliczeniowa.dir/Rat.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PracaZaliczeniowa.dir/Rat.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Rat.cpp > CMakeFiles/PracaZaliczeniowa.dir/Rat.cpp.i
+
+CMakeFiles/PracaZaliczeniowa.dir/Rat.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PracaZaliczeniowa.dir/Rat.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Rat.cpp -o CMakeFiles/PracaZaliczeniowa.dir/Rat.cpp.s
+
+CMakeFiles/PracaZaliczeniowa.dir/Wolf.cpp.o: CMakeFiles/PracaZaliczeniowa.dir/flags.make
+CMakeFiles/PracaZaliczeniowa.dir/Wolf.cpp.o: ../Wolf.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/PracaZaliczeniowa.dir/Wolf.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PracaZaliczeniowa.dir/Wolf.cpp.o -c /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Wolf.cpp
+
+CMakeFiles/PracaZaliczeniowa.dir/Wolf.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PracaZaliczeniowa.dir/Wolf.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Wolf.cpp > CMakeFiles/PracaZaliczeniowa.dir/Wolf.cpp.i
+
+CMakeFiles/PracaZaliczeniowa.dir/Wolf.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PracaZaliczeniowa.dir/Wolf.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Wolf.cpp -o CMakeFiles/PracaZaliczeniowa.dir/Wolf.cpp.s
+
+CMakeFiles/PracaZaliczeniowa.dir/Goblin.cpp.o: CMakeFiles/PracaZaliczeniowa.dir/flags.make
+CMakeFiles/PracaZaliczeniowa.dir/Goblin.cpp.o: ../Goblin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/PracaZaliczeniowa.dir/Goblin.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PracaZaliczeniowa.dir/Goblin.cpp.o -c /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Goblin.cpp
+
+CMakeFiles/PracaZaliczeniowa.dir/Goblin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PracaZaliczeniowa.dir/Goblin.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Goblin.cpp > CMakeFiles/PracaZaliczeniowa.dir/Goblin.cpp.i
+
+CMakeFiles/PracaZaliczeniowa.dir/Goblin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PracaZaliczeniowa.dir/Goblin.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Goblin.cpp -o CMakeFiles/PracaZaliczeniowa.dir/Goblin.cpp.s
+
+CMakeFiles/PracaZaliczeniowa.dir/BattleFactory.cpp.o: CMakeFiles/PracaZaliczeniowa.dir/flags.make
+CMakeFiles/PracaZaliczeniowa.dir/BattleFactory.cpp.o: ../BattleFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/PracaZaliczeniowa.dir/BattleFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PracaZaliczeniowa.dir/BattleFactory.cpp.o -c /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/BattleFactory.cpp
+
+CMakeFiles/PracaZaliczeniowa.dir/BattleFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PracaZaliczeniowa.dir/BattleFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/BattleFactory.cpp > CMakeFiles/PracaZaliczeniowa.dir/BattleFactory.cpp.i
+
+CMakeFiles/PracaZaliczeniowa.dir/BattleFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PracaZaliczeniowa.dir/BattleFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/BattleFactory.cpp -o CMakeFiles/PracaZaliczeniowa.dir/BattleFactory.cpp.s
+
+CMakeFiles/PracaZaliczeniowa.dir/FactoryChoose.cpp.o: CMakeFiles/PracaZaliczeniowa.dir/flags.make
+CMakeFiles/PracaZaliczeniowa.dir/FactoryChoose.cpp.o: ../FactoryChoose.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/PracaZaliczeniowa.dir/FactoryChoose.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PracaZaliczeniowa.dir/FactoryChoose.cpp.o -c /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/FactoryChoose.cpp
+
+CMakeFiles/PracaZaliczeniowa.dir/FactoryChoose.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PracaZaliczeniowa.dir/FactoryChoose.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/FactoryChoose.cpp > CMakeFiles/PracaZaliczeniowa.dir/FactoryChoose.cpp.i
+
+CMakeFiles/PracaZaliczeniowa.dir/FactoryChoose.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PracaZaliczeniowa.dir/FactoryChoose.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/FactoryChoose.cpp -o CMakeFiles/PracaZaliczeniowa.dir/FactoryChoose.cpp.s
+
 # Object files for target PracaZaliczeniowa
 PracaZaliczeniowa_OBJECTS = \
 "CMakeFiles/PracaZaliczeniowa.dir/main.cpp.o" \
@@ -184,7 +262,13 @@ PracaZaliczeniowa_OBJECTS = \
 "CMakeFiles/PracaZaliczeniowa.dir/Forest.cpp.o" \
 "CMakeFiles/PracaZaliczeniowa.dir/Sea.cpp.o" \
 "CMakeFiles/PracaZaliczeniowa.dir/Move.cpp.o" \
-"CMakeFiles/PracaZaliczeniowa.dir/Game.cpp.o"
+"CMakeFiles/PracaZaliczeniowa.dir/Game.cpp.o" \
+"CMakeFiles/PracaZaliczeniowa.dir/FieldFactory.cpp.o" \
+"CMakeFiles/PracaZaliczeniowa.dir/Rat.cpp.o" \
+"CMakeFiles/PracaZaliczeniowa.dir/Wolf.cpp.o" \
+"CMakeFiles/PracaZaliczeniowa.dir/Goblin.cpp.o" \
+"CMakeFiles/PracaZaliczeniowa.dir/BattleFactory.cpp.o" \
+"CMakeFiles/PracaZaliczeniowa.dir/FactoryChoose.cpp.o"
 
 # External object files for target PracaZaliczeniowa
 PracaZaliczeniowa_EXTERNAL_OBJECTS =
@@ -198,9 +282,15 @@ PracaZaliczeniowa: CMakeFiles/PracaZaliczeniowa.dir/Forest.cpp.o
 PracaZaliczeniowa: CMakeFiles/PracaZaliczeniowa.dir/Sea.cpp.o
 PracaZaliczeniowa: CMakeFiles/PracaZaliczeniowa.dir/Move.cpp.o
 PracaZaliczeniowa: CMakeFiles/PracaZaliczeniowa.dir/Game.cpp.o
+PracaZaliczeniowa: CMakeFiles/PracaZaliczeniowa.dir/FieldFactory.cpp.o
+PracaZaliczeniowa: CMakeFiles/PracaZaliczeniowa.dir/Rat.cpp.o
+PracaZaliczeniowa: CMakeFiles/PracaZaliczeniowa.dir/Wolf.cpp.o
+PracaZaliczeniowa: CMakeFiles/PracaZaliczeniowa.dir/Goblin.cpp.o
+PracaZaliczeniowa: CMakeFiles/PracaZaliczeniowa.dir/BattleFactory.cpp.o
+PracaZaliczeniowa: CMakeFiles/PracaZaliczeniowa.dir/FactoryChoose.cpp.o
 PracaZaliczeniowa: CMakeFiles/PracaZaliczeniowa.dir/build.make
 PracaZaliczeniowa: CMakeFiles/PracaZaliczeniowa.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable PracaZaliczeniowa"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable PracaZaliczeniowa"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PracaZaliczeniowa.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
