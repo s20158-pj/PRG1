@@ -5,15 +5,20 @@
 #ifndef PRACAZALICZENIOWA_RAT_H
 #define PRACAZALICZENIOWA_RAT_H
 
+#include <iostream>
 #include <string>
-#include "Monster.h"
+//#include "Monster.h"
+#include "RollDice.h"
 using namespace std;
 
 class Rat {
 public:
     int getStrength();
     int getExperience();
-    string description = "Widzisz szczura!";
+    bool wasDefeat = true;
+    void setDefeat(bool defeat);
+    string description = "Widzisz szczura!\n";
+    void fight(int strength);
 
 private:
     int strength=1;

@@ -9,4 +9,5 @@
 class Monster{
     int strength;
     int experience;
+    bool wasDefeat;
 };

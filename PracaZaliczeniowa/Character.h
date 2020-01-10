@@ -13,10 +13,35 @@ class Character {
     int itsXCoord;
     int itsYCoord;
     int exp;
-    vector<string> inventory;
+    int strength;
+    bool hasCor;
 
+    bool hasAir;
+    bool hasEarth;
 public:
+    bool hasHoly;
+
+    void setFinished(bool finished);
+
+    bool isHasCor();
+
+    void setHasCor(bool hasCor);
+
+    bool isHasHoly();
+
+    void setHasHoly(bool hasHoly);
+
+    bool isHasAir();
+
+    void setHasAir(bool hasAir);
+
+    bool isHasEarth();
+
+    void setHasEarth(bool hasEarth);
+
     bool finished = false;
+
+    vector<string> inventory;
 
     int getXCoord();
 
@@ -25,6 +50,12 @@ public:
     int getYCoord();
 
     void setYCoord(int itsYCoord);
+
+    int getStrength();
+
+    void setStrength(int strength);
+
+    void showInventory(Character hero);
 };
 
 

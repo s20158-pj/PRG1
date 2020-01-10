@@ -1,6 +1,7 @@
 //
 // Created by nomuron on 13.12.2019.
 //
+#include <iostream>
 #include "Move.h"
 
 void Move::move(int move) {
@@ -22,7 +23,7 @@ void Move::move(int move) {
                 y = 1;
                 break;
             default:
-                break;
+                cout << "Nie ma takiej czynności.\n";
         }
 
     }

@@ -84,10 +84,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/BattleFactory.cpp">
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Air.cpp">
 			<Option target="PracaZaliczeniowa"/>
 		</Unit>
-		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/BattleFactory.h">
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Air.h">
 			<Option target="PracaZaliczeniowa"/>
 		</Unit>
 		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Character.cpp">
@@ -96,10 +96,16 @@
 		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Character.h">
 			<Option target="PracaZaliczeniowa"/>
 		</Unit>
-		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/FactoryChoose.cpp">
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Corrupted.cpp">
 			<Option target="PracaZaliczeniowa"/>
 		</Unit>
-		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/FactoryChoose.h">
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Corrupted.h">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Earth.cpp">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Earth.h">
 			<Option target="PracaZaliczeniowa"/>
 		</Unit>
 		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Field.h">
@@ -129,6 +135,12 @@
 		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Goblin.h">
 			<Option target="PracaZaliczeniowa"/>
 		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Holy.cpp">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Holy.h">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
 		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Lake.cpp">
 			<Option target="PracaZaliczeniowa"/>
 		</Unit>
@@ -156,10 +168,22 @@
 		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Move.h">
 			<Option target="PracaZaliczeniowa"/>
 		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Potion.cpp">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Potion.h">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
 		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Rat.cpp">
 			<Option target="PracaZaliczeniowa"/>
 		</Unit>
 		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Rat.h">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/RollDice.cpp">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/RollDice.h">
 			<Option target="PracaZaliczeniowa"/>
 		</Unit>
 		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Sea.cpp">
@@ -175,6 +199,12 @@
 			<Option target="PracaZaliczeniowa"/>
 		</Unit>
 		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/main.cpp">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/temple.cpp">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/temple.h">
 			<Option target="PracaZaliczeniowa"/>
 		</Unit>
 		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/CMakeLists.txt">

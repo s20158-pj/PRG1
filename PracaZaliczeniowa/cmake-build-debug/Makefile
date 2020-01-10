@@ -123,32 +123,32 @@ PracaZaliczeniowa/fast:
 	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/build
 .PHONY : PracaZaliczeniowa/fast
 
-BattleFactory.o: BattleFactory.cpp.o
+Air.o: Air.cpp.o
 
-.PHONY : BattleFactory.o
+.PHONY : Air.o
 
 # target to build an object file
-BattleFactory.cpp.o:
-	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/BattleFactory.cpp.o
-.PHONY : BattleFactory.cpp.o
+Air.cpp.o:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Air.cpp.o
+.PHONY : Air.cpp.o
 
-BattleFactory.i: BattleFactory.cpp.i
+Air.i: Air.cpp.i
 
-.PHONY : BattleFactory.i
+.PHONY : Air.i
 
 # target to preprocess a source file
-BattleFactory.cpp.i:
-	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/BattleFactory.cpp.i
-.PHONY : BattleFactory.cpp.i
+Air.cpp.i:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Air.cpp.i
+.PHONY : Air.cpp.i
 
-BattleFactory.s: BattleFactory.cpp.s
+Air.s: Air.cpp.s
 
-.PHONY : BattleFactory.s
+.PHONY : Air.s
 
 # target to generate assembly for a file
-BattleFactory.cpp.s:
-	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/BattleFactory.cpp.s
-.PHONY : BattleFactory.cpp.s
+Air.cpp.s:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Air.cpp.s
+.PHONY : Air.cpp.s
 
 Character.o: Character.cpp.o
 
@@ -177,32 +177,59 @@ Character.cpp.s:
 	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Character.cpp.s
 .PHONY : Character.cpp.s
 
-FactoryChoose.o: FactoryChoose.cpp.o
+Corrupted.o: Corrupted.cpp.o
 
-.PHONY : FactoryChoose.o
+.PHONY : Corrupted.o
 
 # target to build an object file
-FactoryChoose.cpp.o:
-	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/FactoryChoose.cpp.o
-.PHONY : FactoryChoose.cpp.o
+Corrupted.cpp.o:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Corrupted.cpp.o
+.PHONY : Corrupted.cpp.o
 
-FactoryChoose.i: FactoryChoose.cpp.i
+Corrupted.i: Corrupted.cpp.i
 
-.PHONY : FactoryChoose.i
+.PHONY : Corrupted.i
 
 # target to preprocess a source file
-FactoryChoose.cpp.i:
-	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/FactoryChoose.cpp.i
-.PHONY : FactoryChoose.cpp.i
+Corrupted.cpp.i:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Corrupted.cpp.i
+.PHONY : Corrupted.cpp.i
 
-FactoryChoose.s: FactoryChoose.cpp.s
+Corrupted.s: Corrupted.cpp.s
 
-.PHONY : FactoryChoose.s
+.PHONY : Corrupted.s
 
 # target to generate assembly for a file
-FactoryChoose.cpp.s:
-	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/FactoryChoose.cpp.s
-.PHONY : FactoryChoose.cpp.s
+Corrupted.cpp.s:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Corrupted.cpp.s
+.PHONY : Corrupted.cpp.s
+
+Earth.o: Earth.cpp.o
+
+.PHONY : Earth.o
+
+# target to build an object file
+Earth.cpp.o:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Earth.cpp.o
+.PHONY : Earth.cpp.o
+
+Earth.i: Earth.cpp.i
+
+.PHONY : Earth.i
+
+# target to preprocess a source file
+Earth.cpp.i:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Earth.cpp.i
+.PHONY : Earth.cpp.i
+
+Earth.s: Earth.cpp.s
+
+.PHONY : Earth.s
+
+# target to generate assembly for a file
+Earth.cpp.s:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Earth.cpp.s
+.PHONY : Earth.cpp.s
 
 FieldFactory.o: FieldFactory.cpp.o
 
@@ -312,6 +339,33 @@ Goblin.cpp.s:
 	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Goblin.cpp.s
 .PHONY : Goblin.cpp.s
 
+Holy.o: Holy.cpp.o
+
+.PHONY : Holy.o
+
+# target to build an object file
+Holy.cpp.o:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Holy.cpp.o
+.PHONY : Holy.cpp.o
+
+Holy.i: Holy.cpp.i
+
+.PHONY : Holy.i
+
+# target to preprocess a source file
+Holy.cpp.i:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Holy.cpp.i
+.PHONY : Holy.cpp.i
+
+Holy.s: Holy.cpp.s
+
+.PHONY : Holy.s
+
+# target to generate assembly for a file
+Holy.cpp.s:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Holy.cpp.s
+.PHONY : Holy.cpp.s
+
 Lake.o: Lake.cpp.o
 
 .PHONY : Lake.o
@@ -420,6 +474,33 @@ Move.cpp.s:
 	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Move.cpp.s
 .PHONY : Move.cpp.s
 
+Potion.o: Potion.cpp.o
+
+.PHONY : Potion.o
+
+# target to build an object file
+Potion.cpp.o:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Potion.cpp.o
+.PHONY : Potion.cpp.o
+
+Potion.i: Potion.cpp.i
+
+.PHONY : Potion.i
+
+# target to preprocess a source file
+Potion.cpp.i:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Potion.cpp.i
+.PHONY : Potion.cpp.i
+
+Potion.s: Potion.cpp.s
+
+.PHONY : Potion.s
+
+# target to generate assembly for a file
+Potion.cpp.s:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Potion.cpp.s
+.PHONY : Potion.cpp.s
+
 Rat.o: Rat.cpp.o
 
 .PHONY : Rat.o
@@ -446,6 +527,33 @@ Rat.s: Rat.cpp.s
 Rat.cpp.s:
 	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Rat.cpp.s
 .PHONY : Rat.cpp.s
+
+RollDice.o: RollDice.cpp.o
+
+.PHONY : RollDice.o
+
+# target to build an object file
+RollDice.cpp.o:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/RollDice.cpp.o
+.PHONY : RollDice.cpp.o
+
+RollDice.i: RollDice.cpp.i
+
+.PHONY : RollDice.i
+
+# target to preprocess a source file
+RollDice.cpp.i:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/RollDice.cpp.i
+.PHONY : RollDice.cpp.i
+
+RollDice.s: RollDice.cpp.s
+
+.PHONY : RollDice.s
+
+# target to generate assembly for a file
+RollDice.cpp.s:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/RollDice.cpp.s
+.PHONY : RollDice.cpp.s
 
 Sea.o: Sea.cpp.o
 
@@ -528,6 +636,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+temple.o: temple.cpp.o
+
+.PHONY : temple.o
+
+# target to build an object file
+temple.cpp.o:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/temple.cpp.o
+.PHONY : temple.cpp.o
+
+temple.i: temple.cpp.i
+
+.PHONY : temple.i
+
+# target to preprocess a source file
+temple.cpp.i:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/temple.cpp.i
+.PHONY : temple.cpp.i
+
+temple.s: temple.cpp.s
+
+.PHONY : temple.s
+
+# target to generate assembly for a file
+temple.cpp.s:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/temple.cpp.s
+.PHONY : temple.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -537,15 +672,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... PracaZaliczeniowa"
 	@echo "... edit_cache"
-	@echo "... BattleFactory.o"
-	@echo "... BattleFactory.i"
-	@echo "... BattleFactory.s"
+	@echo "... Air.o"
+	@echo "... Air.i"
+	@echo "... Air.s"
 	@echo "... Character.o"
 	@echo "... Character.i"
 	@echo "... Character.s"
-	@echo "... FactoryChoose.o"
-	@echo "... FactoryChoose.i"
-	@echo "... FactoryChoose.s"
+	@echo "... Corrupted.o"
+	@echo "... Corrupted.i"
+	@echo "... Corrupted.s"
+	@echo "... Earth.o"
+	@echo "... Earth.i"
+	@echo "... Earth.s"
 	@echo "... FieldFactory.o"
 	@echo "... FieldFactory.i"
 	@echo "... FieldFactory.s"
@@ -558,6 +696,9 @@ help:
 	@echo "... Goblin.o"
 	@echo "... Goblin.i"
 	@echo "... Goblin.s"
+	@echo "... Holy.o"
+	@echo "... Holy.i"
+	@echo "... Holy.s"
 	@echo "... Lake.o"
 	@echo "... Lake.i"
 	@echo "... Lake.s"
@@ -570,9 +711,15 @@ help:
 	@echo "... Move.o"
 	@echo "... Move.i"
 	@echo "... Move.s"
+	@echo "... Potion.o"
+	@echo "... Potion.i"
+	@echo "... Potion.s"
 	@echo "... Rat.o"
 	@echo "... Rat.i"
 	@echo "... Rat.s"
+	@echo "... RollDice.o"
+	@echo "... RollDice.i"
+	@echo "... RollDice.s"
 	@echo "... Sea.o"
 	@echo "... Sea.i"
 	@echo "... Sea.s"
@@ -582,6 +729,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... temple.o"
+	@echo "... temple.i"
+	@echo "... temple.s"
 .PHONY : help
 
 

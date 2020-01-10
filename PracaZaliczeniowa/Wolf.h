@@ -5,17 +5,22 @@
 #ifndef PRACAZALICZENIOWA_WOLF_H
 #define PRACAZALICZENIOWA_WOLF_H
 
+#include <iostream>
 #include <string>
-
+//#include "Monster.h"
+#include "RollDice.h"
 using namespace std;
 
 class Wolf {
 int strength = 2;
 int experience = 2;
+    bool wasDefeat = false;
 public:
     int getStrength();
     int getExperience();
-    string description = "Widzisz wilka!";
+    void setDefeat(bool defeat);
+    string description = "Widzisz wilka!\n";
+    void fight(int strength);
 };
 
 

@@ -11,7 +11,7 @@
 class Forest: public Field {
     bool hasItem=false;
     bool hasMonster=false;
-    bool movable=false;
+    bool movable=true;
     string description="Widzisz zajebiaszczy las.\n";
 public:
     void makeEvent();

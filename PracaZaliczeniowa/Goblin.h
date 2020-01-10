@@ -5,17 +5,23 @@
 #ifndef PRACAZALICZENIOWA_GOBLIN_H
 #define PRACAZALICZENIOWA_GOBLIN_H
 
+#include <iostream>
 #include <string>
-
+//#include "Monster.h"
+#include "RollDice.h"
 using namespace std;
 
 class Goblin {
 int strength=3;
 int experience=3;
+    bool wasDefeat = false;
+
 public:
     int getStrength();
     int getExperience();
-    string description = "Widzisz goblina!";
+    void setDefeat(bool defeat);
+    string description = "Widzisz goblina!\n";
+    void fight(int strength);
 };
 
 

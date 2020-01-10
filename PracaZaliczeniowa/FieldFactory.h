@@ -14,17 +14,26 @@
 #include "Rat.h"
 #include "Wolf.h"
 #include "Goblin.h"
+#include "Character.h"
 
 class FieldFactory {
 public:
+    Character hero;
+    bool rid;
     void createF();
     void createS();
     void createM();
     void createL();
-    void createRat();
-    void createWolf();
-    void createGoblin();
-    void runFactory (char field);
+    Rat createRat(int strength);
+    Wolf createWolf(int strength);
+    Goblin createGoblin(int strength);
+    Character createP(Character hero);
+    Character createH(Character hero);
+    Character createC(Character hero);
+    Character createA(Character hero);
+    Character createE(Character hero);
+    Character createT(Character hero);
+    Character runFactory (char field, int strength, Character hero);
 };
 
 
