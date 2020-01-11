@@ -29,6 +29,8 @@ void Rat::fight(int strength) {
             cout << "remis\n";
         } else if (charStr < ratStr) {
             cout << "przegrałeś\n";
+            //hero.setXCoord(hero.getBackupXCoord());
+            //hero.setYCoord(hero.getBackupYCoord());
         }
     } else if (Rat::wasDefeat) {
         cout << "Już wygrałeś\n";

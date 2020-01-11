@@ -90,6 +90,12 @@
 		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Air.h">
 			<Option target="PracaZaliczeniowa"/>
 		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Belt.cpp">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Belt.h">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
 		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Character.cpp">
 			<Option target="PracaZaliczeniowa"/>
 		</Unit>
@@ -100,6 +106,12 @@
 			<Option target="PracaZaliczeniowa"/>
 		</Unit>
 		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Corrupted.h">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/DarkTome.cpp">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/DarkTome.h">
 			<Option target="PracaZaliczeniowa"/>
 		</Unit>
 		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Earth.cpp">

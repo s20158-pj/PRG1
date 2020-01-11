@@ -150,6 +150,33 @@ Air.cpp.s:
 	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Air.cpp.s
 .PHONY : Air.cpp.s
 
+Belt.o: Belt.cpp.o
+
+.PHONY : Belt.o
+
+# target to build an object file
+Belt.cpp.o:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Belt.cpp.o
+.PHONY : Belt.cpp.o
+
+Belt.i: Belt.cpp.i
+
+.PHONY : Belt.i
+
+# target to preprocess a source file
+Belt.cpp.i:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Belt.cpp.i
+.PHONY : Belt.cpp.i
+
+Belt.s: Belt.cpp.s
+
+.PHONY : Belt.s
+
+# target to generate assembly for a file
+Belt.cpp.s:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Belt.cpp.s
+.PHONY : Belt.cpp.s
+
 Character.o: Character.cpp.o
 
 .PHONY : Character.o
@@ -203,6 +230,33 @@ Corrupted.s: Corrupted.cpp.s
 Corrupted.cpp.s:
 	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Corrupted.cpp.s
 .PHONY : Corrupted.cpp.s
+
+DarkTome.o: DarkTome.cpp.o
+
+.PHONY : DarkTome.o
+
+# target to build an object file
+DarkTome.cpp.o:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/DarkTome.cpp.o
+.PHONY : DarkTome.cpp.o
+
+DarkTome.i: DarkTome.cpp.i
+
+.PHONY : DarkTome.i
+
+# target to preprocess a source file
+DarkTome.cpp.i:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/DarkTome.cpp.i
+.PHONY : DarkTome.cpp.i
+
+DarkTome.s: DarkTome.cpp.s
+
+.PHONY : DarkTome.s
+
+# target to generate assembly for a file
+DarkTome.cpp.s:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/DarkTome.cpp.s
+.PHONY : DarkTome.cpp.s
 
 Earth.o: Earth.cpp.o
 
@@ -675,12 +729,18 @@ help:
 	@echo "... Air.o"
 	@echo "... Air.i"
 	@echo "... Air.s"
+	@echo "... Belt.o"
+	@echo "... Belt.i"
+	@echo "... Belt.s"
 	@echo "... Character.o"
 	@echo "... Character.i"
 	@echo "... Character.s"
 	@echo "... Corrupted.o"
 	@echo "... Corrupted.i"
 	@echo "... Corrupted.s"
+	@echo "... DarkTome.o"
+	@echo "... DarkTome.i"
+	@echo "... DarkTome.s"
 	@echo "... Earth.o"
 	@echo "... Earth.i"
 	@echo "... Earth.s"

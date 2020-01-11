@@ -28,6 +28,8 @@ public:
     Wolf createWolf(int strength);
     Goblin createGoblin(int strength);
     Character createP(Character hero);
+    Character createB(Character hero);
+    Character createD(Character hero);
     Character createH(Character hero);
     Character createC(Character hero);
     Character createA(Character hero);

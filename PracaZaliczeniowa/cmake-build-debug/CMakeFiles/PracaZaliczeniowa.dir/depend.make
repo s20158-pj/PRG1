@@ -5,6 +5,9 @@ CMakeFiles/PracaZaliczeniowa.dir/Air.cpp.o: ../Air.cpp
 CMakeFiles/PracaZaliczeniowa.dir/Air.cpp.o: ../Air.h
 CMakeFiles/PracaZaliczeniowa.dir/Air.cpp.o: ../Character.h
 
+CMakeFiles/PracaZaliczeniowa.dir/Belt.cpp.o: ../Belt.cpp
+CMakeFiles/PracaZaliczeniowa.dir/Belt.cpp.o: ../Belt.h
+
 CMakeFiles/PracaZaliczeniowa.dir/Character.cpp.o: ../Character.cpp
 CMakeFiles/PracaZaliczeniowa.dir/Character.cpp.o: ../Character.h
 
@@ -12,13 +15,18 @@ CMakeFiles/PracaZaliczeniowa.dir/Corrupted.cpp.o: ../Character.h
 CMakeFiles/PracaZaliczeniowa.dir/Corrupted.cpp.o: ../Corrupted.cpp
 CMakeFiles/PracaZaliczeniowa.dir/Corrupted.cpp.o: ../Corrupted.h
 
+CMakeFiles/PracaZaliczeniowa.dir/DarkTome.cpp.o: ../DarkTome.cpp
+CMakeFiles/PracaZaliczeniowa.dir/DarkTome.cpp.o: ../DarkTome.h
+
 CMakeFiles/PracaZaliczeniowa.dir/Earth.cpp.o: ../Character.h
 CMakeFiles/PracaZaliczeniowa.dir/Earth.cpp.o: ../Earth.cpp
 CMakeFiles/PracaZaliczeniowa.dir/Earth.cpp.o: ../Earth.h
 
 CMakeFiles/PracaZaliczeniowa.dir/FieldFactory.cpp.o: ../Air.h
+CMakeFiles/PracaZaliczeniowa.dir/FieldFactory.cpp.o: ../Belt.h
 CMakeFiles/PracaZaliczeniowa.dir/FieldFactory.cpp.o: ../Character.h
 CMakeFiles/PracaZaliczeniowa.dir/FieldFactory.cpp.o: ../Corrupted.h
+CMakeFiles/PracaZaliczeniowa.dir/FieldFactory.cpp.o: ../DarkTome.h
 CMakeFiles/PracaZaliczeniowa.dir/FieldFactory.cpp.o: ../Earth.h
 CMakeFiles/PracaZaliczeniowa.dir/FieldFactory.cpp.o: ../Field.h
 CMakeFiles/PracaZaliczeniowa.dir/FieldFactory.cpp.o: ../FieldFactory.cpp

@@ -8,6 +8,8 @@
 #include "Corrupted.h"
 #include "Air.h"
 #include "Earth.h"
+#include "Belt.h"
+#include "DarkTome.h"
 
 
 void FieldFactory::createF() {
@@ -61,12 +63,35 @@ Character FieldFactory::createP(Character hero) {
     return hero;
 }
 
+Character FieldFactory::createB(Character hero) {
+    FieldFactory::hero = hero;
+    Belt belt;
+    string beltName = belt.getName();
+    vector<string> inv = hero.inventory;
+    inv.insert(inv.end(),beltName);
+    hero.inventory = inv;
+    return hero;
+}
+
+Character FieldFactory::createD(Character hero) {
+    FieldFactory::hero = hero;
+    DarkTome darkTome;
+    string TomeName = darkTome.getName();
+    vector<string> inv = hero.inventory;
+    inv.insert(inv.end(),TomeName);
+    hero.inventory = inv;
+    return hero;
+}
+
 Character FieldFactory::createH(Character hero) {
     hero = hero;
     Holy holy;
     rid = holy.HolyRiddle();
     if (rid==true){
         hero.setHasHoly(true);
+        vector<string> inv = hero.inventory;
+        inv.insert(inv.end(),"Święty pierścień\n");
+        hero.inventory = inv;
     }
     return hero;
 }
@@ -77,6 +102,9 @@ Character FieldFactory::createC(Character hero) {
     rid = corrupted.CorRiddle();
     if (rid==true){
         hero.setHasCor(true);
+        vector<string> inv = hero.inventory;
+        inv.insert(inv.end(),"Pierścień zepsucia\n");
+        hero.inventory = inv;
     }
     return hero;
 }
@@ -87,6 +115,9 @@ Character FieldFactory::createA(Character hero) {
     rid = air.AirRiddle();
     if (rid==true){
         hero.setHasAir(true);
+        vector<string> inv = hero.inventory;
+        inv.insert(inv.end(),"Pierścień powietrza\n");
+        hero.inventory = inv;
     }
     return hero;
 }
@@ -97,6 +128,9 @@ Character FieldFactory::createE(Character hero) {
     rid = earth.EarthRiddle();
     if (rid==true){
         hero.setHasEarth(true);
+        vector<string> inv = hero.inventory;
+        inv.insert(inv.end(),"Pierścień ziemi\n");
+        hero.inventory = inv;
     }
     return hero;
 }
@@ -139,6 +173,10 @@ Character FieldFactory::runFactory(char field, int strength, Character hero) {
         createGoblin(strength);
     } else if (field=='p'){
         hero = createP(hero);
+    } else if (field=='b'){
+        hero = createB(hero);
+    } else if (field=='d'){
+        hero = createD(hero);
     } else if (field=='h'){
         hero = createH(hero);
     } else if (field=='c'){

@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/PracaZaliczeniowa.dir/Air.cpp.o"
+  "CMakeFiles/PracaZaliczeniowa.dir/Belt.cpp.o"
   "CMakeFiles/PracaZaliczeniowa.dir/Character.cpp.o"
   "CMakeFiles/PracaZaliczeniowa.dir/Corrupted.cpp.o"
+  "CMakeFiles/PracaZaliczeniowa.dir/DarkTome.cpp.o"
   "CMakeFiles/PracaZaliczeniowa.dir/Earth.cpp.o"
   "CMakeFiles/PracaZaliczeniowa.dir/FieldFactory.cpp.o"
   "CMakeFiles/PracaZaliczeniowa.dir/Forest.cpp.o"

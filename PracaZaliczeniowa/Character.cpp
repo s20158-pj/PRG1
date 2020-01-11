@@ -1,7 +1,7 @@
 //
 // Created by nomuron on 11.12.2019.
 //
-#include <iostream>
+
 #include "Character.h"
 
 int Character::getXCoord(){
@@ -32,7 +32,12 @@ void Character::showInventory(Character hero) {
     if (hero.inventory.empty()){
         cout << "Twój ekwipunek jest pusty!\n";
     } else {
-        cout << hero.inventory[0];
+        cout << "Posiadasz: \n";
+        vector <string> inv = hero.inventory;
+        int invLength = inv.size();
+        for (int i=0; i<invLength; i++) {
+            cout << inv[i];
+        }
     }
 }
 
@@ -70,4 +75,20 @@ void Character::setHasEarth(bool hasEarth) {
 
 void Character::setFinished(bool finished) {
     Character::finished = finished;
+}
+
+int Character::getBackupXCoord() {
+    return backupXCoord;
+}
+
+void Character::setBackupXCoord(int backupXCoord) {
+    Character::backupXCoord = backupXCoord;
+}
+
+int Character::getBackupYCoord() {
+    return backupYCoord;
+}
+
+void Character::setBackupYCoord(int backupYCoord) {
+    Character::backupYCoord = backupYCoord;
 }

@@ -5,8 +5,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Air.cpp" "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/CMakeFiles/PracaZaliczeniowa.dir/Air.cpp.o"
+  "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Belt.cpp" "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/CMakeFiles/PracaZaliczeniowa.dir/Belt.cpp.o"
   "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Character.cpp" "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/CMakeFiles/PracaZaliczeniowa.dir/Character.cpp.o"
   "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Corrupted.cpp" "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/CMakeFiles/PracaZaliczeniowa.dir/Corrupted.cpp.o"
+  "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/DarkTome.cpp" "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/CMakeFiles/PracaZaliczeniowa.dir/DarkTome.cpp.o"
   "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Earth.cpp" "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/CMakeFiles/PracaZaliczeniowa.dir/Earth.cpp.o"
   "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/FieldFactory.cpp" "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/CMakeFiles/PracaZaliczeniowa.dir/FieldFactory.cpp.o"
   "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Forest.cpp" "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/CMakeFiles/PracaZaliczeniowa.dir/Forest.cpp.o"

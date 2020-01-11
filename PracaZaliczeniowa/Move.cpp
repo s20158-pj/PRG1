@@ -22,10 +22,16 @@ void Move::move(int move) {
                 x = 0;
                 y = 1;
                 break;
+            case 5:
+                x = 0;
+                y = 0;
+                break;
             default:
                 cout << "Nie ma takiej czynności.\n";
+                x = 0;
+                y = 0;
+                break;
         }
-
     }
 
 int Move::getX() {

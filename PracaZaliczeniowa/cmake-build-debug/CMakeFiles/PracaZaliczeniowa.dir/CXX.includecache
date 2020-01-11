@@ -6,53 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Air.h
+/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Character.h
 iostream
 -
-string
--
-Character.h
-/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Character.h
-
-/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Character.h
 string
 -
 vector
 -
 
-/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Corrupted.h
-iostream
--
-string
--
-Character.h
-/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Character.h
-
-/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Earth.h
-iostream
--
-string
--
-Character.h
-/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Character.h
-
 /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Field.h
 string
 -
-
-/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/FieldFactory.cpp
-FieldFactory.h
-/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/FieldFactory.h
-Potion.h
-/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Potion.h
-Holy.h
-/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Holy.h
-Corrupted.h
-/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Corrupted.h
-Air.h
-/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Air.h
-Earth.h
-/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Earth.h
 
 /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/FieldFactory.h
 Field.h
@@ -81,8 +45,6 @@ Field.h
 /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Game.cpp
 Game.h
 /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Game.h
-RollDice.h
-/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/RollDice.h
 
 /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Game.h
 Character.h
@@ -102,14 +64,6 @@ string
 RollDice.h
 /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/RollDice.h
 
-/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Holy.h
-iostream
--
-string
--
-Character.h
-/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Character.h
-
 /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Lake.h
 iostream
 -
@@ -127,10 +81,6 @@ Field.h
 /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Move.h
 Character.h
 /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Character.h
-
-/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Potion.h
-string
--
 
 /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Rat.h
 iostream
@@ -157,4 +107,8 @@ string
 -
 RollDice.h
 /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/RollDice.h
+
+/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/main.cpp
+Game.h
+/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Game.h
 

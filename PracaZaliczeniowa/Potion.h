@@ -11,7 +11,7 @@ using namespace std;
 
 
 class Potion {
-string itemName = "Potion\n";
+string itemName = "Wywar\n";
 public:
 string getName();
 };

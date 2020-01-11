@@ -5,6 +5,7 @@
 #ifndef PRACAZALICZENIOWA_CHARACTER_H
 #define PRACAZALICZENIOWA_CHARACTER_H
 
+#include <iostream>
 #include <string>
 #include <vector>
 using namespace std;
@@ -12,6 +13,8 @@ using namespace std;
 class Character {
     int itsXCoord;
     int itsYCoord;
+    int backupXCoord;
+    int backupYCoord;
     int exp;
     int strength;
     bool hasCor;
@@ -56,6 +59,14 @@ public:
     void setStrength(int strength);
 
     void showInventory(Character hero);
+
+    int getBackupXCoord();
+
+    void setBackupXCoord(int backupXCoord);
+
+    int getBackupYCoord();
+
+    void setBackupYCoord(int backupYCoord);
 };
 
 
