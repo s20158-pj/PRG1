@@ -447,6 +447,33 @@ Lake.cpp.s:
 	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Lake.cpp.s
 .PHONY : Lake.cpp.s
 
+LevelUp.o: LevelUp.cpp.o
+
+.PHONY : LevelUp.o
+
+# target to build an object file
+LevelUp.cpp.o:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/LevelUp.cpp.o
+.PHONY : LevelUp.cpp.o
+
+LevelUp.i: LevelUp.cpp.i
+
+.PHONY : LevelUp.i
+
+# target to preprocess a source file
+LevelUp.cpp.i:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/LevelUp.cpp.i
+.PHONY : LevelUp.cpp.i
+
+LevelUp.s: LevelUp.cpp.s
+
+.PHONY : LevelUp.s
+
+# target to generate assembly for a file
+LevelUp.cpp.s:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/LevelUp.cpp.s
+.PHONY : LevelUp.cpp.s
+
 Map.o: Map.cpp.o
 
 .PHONY : Map.o
@@ -762,6 +789,9 @@ help:
 	@echo "... Lake.o"
 	@echo "... Lake.i"
 	@echo "... Lake.s"
+	@echo "... LevelUp.o"
+	@echo "... LevelUp.i"
+	@echo "... LevelUp.s"
 	@echo "... Map.o"
 	@echo "... Map.i"
 	@echo "... Map.s"

@@ -92,3 +92,19 @@ int Character::getBackupYCoord() {
 void Character::setBackupYCoord(int backupYCoord) {
     Character::backupYCoord = backupYCoord;
 }
+
+int Character::getLevel(){
+    return level;
+}
+
+int Character::getExp() {
+    return exp;
+}
+
+void Character::setExp(int exp) {
+    Character::exp = exp;
+}
+
+void Character::setLevel(int level) {
+    Character::level = level;
+}

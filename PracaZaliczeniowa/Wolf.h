@@ -12,16 +12,16 @@
 using namespace std;
 
 class Wolf {
-int strength = 2;
+int strength = 1;
 int experience = 2;
-    bool wasDefeat = false;
 public:
     int getStrength();
     int getExperience();
     void setDefeat(bool defeat);
     string description = "Idąc lasem słyszysz warczenie z za siebie. Odwracają się widzisz powoli zbliżającego się do ciebie \n"
-                         "wilka. Duży szary wilk z najeżonym grzbietem powoli się do ciebie zbliża oraz rzuca się na ciebie.";
+                         "wilka. Duży szary wilk z najeżonym grzbietem powoli się do ciebie zbliża oraz rzuca się na ciebie.\n\n";
     void fight(int strength);
+    bool wasDefeat = false;
 };
 
 

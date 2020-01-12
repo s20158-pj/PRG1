@@ -92,24 +92,6 @@ Character.h
 Field.h
 /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Field.h
 
-/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Game.cpp
-Game.h
-/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Game.h
-
-/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Game.h
-Character.h
-/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Character.h
-Map.h
-/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Map.h
-Move.h
-/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Move.h
-FieldFactory.h
-/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/FieldFactory.h
-
-/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Goblin.cpp
-Goblin.h
-/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Goblin.h
-
 /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Goblin.h
 iostream
 -
@@ -132,25 +114,13 @@ iostream
 Field.h
 /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Field.h
 
-/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Map.h
-string
--
-
 /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Mountain.h
 Field.h
 /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Field.h
 
-/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Move.h
-Character.h
-/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Character.h
-
 /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Potion.h
 string
 -
-
-/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Rat.cpp
-Rat.h
-/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Rat.h
 
 /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Rat.h
 iostream
@@ -170,10 +140,6 @@ ctime
 Field.h
 /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Field.h
 
-/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Wolf.cpp
-Wolf.h
-/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Wolf.h
-
 /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Wolf.h
 iostream
 -
@@ -181,8 +147,4 @@ string
 -
 RollDice.h
 /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/RollDice.h
-
-/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/main.cpp
-Game.h
-/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Game.h
 

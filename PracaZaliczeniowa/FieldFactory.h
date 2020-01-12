@@ -19,6 +19,9 @@
 class FieldFactory {
 public:
     Character hero;
+    Rat rat;
+    Wolf wolf;
+    Goblin goblin;
     bool rid;
     void createF();
     void createS();

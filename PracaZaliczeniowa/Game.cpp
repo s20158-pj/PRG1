@@ -3,6 +3,7 @@
 //
 
 #include "Game.h"
+#include "LevelUp.h"
 
 using namespace std;
 
@@ -12,6 +13,7 @@ void Game::startGame() {
             "Jadłeś obiad z żoną a potem pustka. Po chwili rozmyślań decydujesz się ruszyć w podróż po wyspie. W końcu musisz jakoś znaleźć wyjście!\n\n";
     Map mapa;
     Character hero;
+    hero.setLevel(1);
     hero.setXCoord(7);
     hero.setYCoord(7);
     hero.setStrength(1);
@@ -41,6 +43,8 @@ void Game::startGame() {
             hero.setXCoord(hero.getBackupXCoord());
             hero.setYCoord(hero.getBackupYCoord());
         }
+        LevelUp levelUp;
+        hero = levelUp.levelUp(hero);
     } while (!hero.finished);
     cout << "Widzisz otwierający się przed tobą portal. Stwierdzasz, że po tym co cię na tej wyspie spotkało nie masz nic do stracenia. \n"
             "Wchodzisz. \n"

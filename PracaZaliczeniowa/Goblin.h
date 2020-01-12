@@ -12,9 +12,8 @@
 using namespace std;
 
 class Goblin {
-int strength=3;
+int strength=1;
 int experience=3;
-    bool wasDefeat = false;
 
 public:
     int getStrength();
@@ -23,8 +22,9 @@ public:
     string description = "Idąc lasem zauważasz truchło szczura. Kompletnie okrojone z mięsa. W ciszy słyszysz odgłosy.\n"
                          "Przypominają bulgotanie bądź próby powiedzenia czegoś. Nagle widzisz, że z krzaku wychodzi \n"
                          "duża, zielona, humanoidalną postać. Pierwszym raz widzisz postać w stylu. Przypomina jakiegoś goblina \n"
-                         "z gier Skyrima. Patrzy na ciebie wyłupiastymi ślepiami. PO chwili rzuca się na ciebie.";
+                         "z gier Skyrima. Patrzy na ciebie wyłupiastymi ślepiami. PO chwili rzuca się na ciebie.\n\n";
     void fight(int strength);
+    bool wasDefeat = false;
 };
 
 

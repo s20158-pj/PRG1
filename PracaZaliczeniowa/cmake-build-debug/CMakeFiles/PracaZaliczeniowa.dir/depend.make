@@ -54,6 +54,7 @@ CMakeFiles/PracaZaliczeniowa.dir/Game.cpp.o: ../Game.cpp
 CMakeFiles/PracaZaliczeniowa.dir/Game.cpp.o: ../Game.h
 CMakeFiles/PracaZaliczeniowa.dir/Game.cpp.o: ../Goblin.h
 CMakeFiles/PracaZaliczeniowa.dir/Game.cpp.o: ../Lake.h
+CMakeFiles/PracaZaliczeniowa.dir/Game.cpp.o: ../LevelUp.h
 CMakeFiles/PracaZaliczeniowa.dir/Game.cpp.o: ../Map.h
 CMakeFiles/PracaZaliczeniowa.dir/Game.cpp.o: ../Mountain.h
 CMakeFiles/PracaZaliczeniowa.dir/Game.cpp.o: ../Move.h
@@ -73,6 +74,10 @@ CMakeFiles/PracaZaliczeniowa.dir/Holy.cpp.o: ../Holy.h
 CMakeFiles/PracaZaliczeniowa.dir/Lake.cpp.o: ../Field.h
 CMakeFiles/PracaZaliczeniowa.dir/Lake.cpp.o: ../Lake.cpp
 CMakeFiles/PracaZaliczeniowa.dir/Lake.cpp.o: ../Lake.h
+
+CMakeFiles/PracaZaliczeniowa.dir/LevelUp.cpp.o: ../Character.h
+CMakeFiles/PracaZaliczeniowa.dir/LevelUp.cpp.o: ../LevelUp.cpp
+CMakeFiles/PracaZaliczeniowa.dir/LevelUp.cpp.o: ../LevelUp.h
 
 CMakeFiles/PracaZaliczeniowa.dir/Map.cpp.o: ../Map.cpp
 

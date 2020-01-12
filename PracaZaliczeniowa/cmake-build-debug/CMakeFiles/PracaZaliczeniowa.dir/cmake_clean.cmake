@@ -11,6 +11,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/PracaZaliczeniowa.dir/Goblin.cpp.o"
   "CMakeFiles/PracaZaliczeniowa.dir/Holy.cpp.o"
   "CMakeFiles/PracaZaliczeniowa.dir/Lake.cpp.o"
+  "CMakeFiles/PracaZaliczeniowa.dir/LevelUp.cpp.o"
   "CMakeFiles/PracaZaliczeniowa.dir/Map.cpp.o"
   "CMakeFiles/PracaZaliczeniowa.dir/Mountain.cpp.o"
   "CMakeFiles/PracaZaliczeniowa.dir/Move.cpp.o"

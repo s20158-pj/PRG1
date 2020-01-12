@@ -16,12 +16,16 @@ class Character {
     int backupXCoord;
     int backupYCoord;
     int exp;
+    int level;
     int strength;
     bool hasCor;
-
     bool hasAir;
     bool hasEarth;
 public:
+    int getLevel();
+
+    void setLevel(int level);
+
     bool hasHoly;
 
     void setFinished(bool finished);
@@ -67,6 +71,10 @@ public:
     int getBackupYCoord();
 
     void setBackupYCoord(int backupYCoord);
+
+    int getExp();
+
+    void setExp(int exp);
 };
 
 

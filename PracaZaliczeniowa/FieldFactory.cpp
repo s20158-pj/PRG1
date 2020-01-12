@@ -55,34 +55,61 @@ Goblin FieldFactory::createGoblin(int strength) {
 
 Character FieldFactory::createP(Character hero) {
     FieldFactory::hero = hero;
-    cout << "Znajdujesz leżący na ziemi wywar.\n\n";
-    Potion potion;
-    string potionName = potion.getName();
-    vector<string> inv = hero.inventory;
-    inv.insert(inv.begin(),potionName);
-    hero.inventory = inv;
+    cout << "Znajdujesz leżący na ziemi wywar.\n"
+            "k) Podnieś przedmiot: \n";
+    char pickUp;
+    cin >> pickUp;
+    if (pickUp=='k'){
+        Potion potion;
+        string potionName = potion.getName();
+        vector<string> inv = hero.inventory;
+        inv.insert(inv.begin(),potionName);
+        hero.inventory = inv;
+        cout << "Podniosłeś wywar. \n";
+    } else {
+        cout << "Nie ma takiej opcji klawiszowej\n";
+        createP(hero);
+    }
     return hero;
 }
 
 Character FieldFactory::createB(Character hero) {
     FieldFactory::hero = hero;
-    cout << "Znajdujesz leżący na ziemi pasek.\n\n";
-    Belt belt;
-    string beltName = belt.getName();
-    vector<string> inv = hero.inventory;
-    inv.insert(inv.end(),beltName);
-    hero.inventory = inv;
+    cout << "Znajdujesz leżący na ziemi pasek.\n"
+            "k) Podnieś przedmiot: \n";
+    char pickUp;
+    cin >> pickUp;
+    if (pickUp=='k') {
+        Belt belt;
+        string beltName = belt.getName();
+        vector<string> inv = hero.inventory;
+        inv.insert(inv.end(),beltName);
+        hero.inventory = inv;
+        cout << "Podniosłeś pasek. \n";
+    } else {
+        cout << "Nie ma takiej opcji klawiszowej\n";
+        createB(hero);
+    }
     return hero;
 }
 
 Character FieldFactory::createD(Character hero) {
     FieldFactory::hero = hero;
-    cout << "Znajdujesz leżacą na ziemi księge.\n\n";
-    DarkTome darkTome;
-    string TomeName = darkTome.getName();
-    vector<string> inv = hero.inventory;
-    inv.insert(inv.end(),TomeName);
-    hero.inventory = inv;
+    cout << "Znajdujesz leżącą na ziemi księge.\n"
+            "k) Podnieś przedmiot: \n";
+    char pickUp;
+    cin >> pickUp;
+    if  (pickUp=='k') {
+        DarkTome darkTome;
+        string TomeName = darkTome.getName();
+        vector<string> inv = hero.inventory;
+        inv.insert(inv.end(),TomeName);
+        hero.inventory = inv;
+        cout << "Podniosłeś księge. \n";
+    } else {
+        cout << "Nie ma takiej opcji klawiszowej\n";
+        createD(hero);
+    }
     return hero;
 }
 
@@ -159,7 +186,7 @@ Character FieldFactory::createT(Character hero) {
 
 Character FieldFactory::runFactory(char field, int strength, Character hero) {
     strength = strength;
-    hero = hero;
+    FieldFactory::hero = hero;
     if (field=='f'){
         createF();
     } else if (field=='s'){
@@ -169,11 +196,20 @@ Character FieldFactory::runFactory(char field, int strength, Character hero) {
     } else if (field=='l'){
         createL();
     } else if (field=='r'){
-        createRat(strength);
+        FieldFactory::rat = createRat(strength);
+        if (rat.wasDefeat){
+            hero.setExp(rat.getExperience());
+        }
     } else if (field=='w'){
-        createWolf(strength);
+        FieldFactory::wolf = createWolf(strength);
+        if (wolf.wasDefeat){
+            hero.setExp(wolf.getExperience());
+        }
     } else if (field=='g'){
-        createGoblin(strength);
+        FieldFactory::goblin = createGoblin(strength);
+        if (goblin.wasDefeat){
+            hero.setExp(hero.getExp()+goblin.getExperience());
+        }
     } else if (field=='p'){
         hero = createP(hero);
     } else if (field=='b'){
