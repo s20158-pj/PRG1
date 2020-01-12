@@ -12,7 +12,7 @@ class Forest: public Field {
     bool hasItem=false;
     bool hasMonster=false;
     bool movable=true;
-    string description="Widzisz zajebiaszczy las.\n";
+    string description="Znajdujesz się we wspaniałym dzikim lesie. Otacza cię śpiew ptaków, zapach kwiatów oraz runa leśnego.\n";
 public:
     void makeEvent();
     bool getMoveble();

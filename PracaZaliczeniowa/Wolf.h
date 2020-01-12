@@ -19,7 +19,8 @@ public:
     int getStrength();
     int getExperience();
     void setDefeat(bool defeat);
-    string description = "Widzisz wilka!\n";
+    string description = "Idąc lasem słyszysz warczenie z za siebie. Odwracają się widzisz powoli zbliżającego się do ciebie \n"
+                         "wilka. Duży szary wilk z najeżonym grzbietem powoli się do ciebie zbliża oraz rzuca się na ciebie.";
     void fight(int strength);
 };
 

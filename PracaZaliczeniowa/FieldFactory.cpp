@@ -55,6 +55,7 @@ Goblin FieldFactory::createGoblin(int strength) {
 
 Character FieldFactory::createP(Character hero) {
     FieldFactory::hero = hero;
+    cout << "Znajdujesz leżący na ziemi wywar.\n\n";
     Potion potion;
     string potionName = potion.getName();
     vector<string> inv = hero.inventory;
@@ -65,6 +66,7 @@ Character FieldFactory::createP(Character hero) {
 
 Character FieldFactory::createB(Character hero) {
     FieldFactory::hero = hero;
+    cout << "Znajdujesz leżący na ziemi pasek.\n\n";
     Belt belt;
     string beltName = belt.getName();
     vector<string> inv = hero.inventory;
@@ -75,6 +77,7 @@ Character FieldFactory::createB(Character hero) {
 
 Character FieldFactory::createD(Character hero) {
     FieldFactory::hero = hero;
+    cout << "Znajdujesz leżacą na ziemi księge.\n\n";
     DarkTome darkTome;
     string TomeName = darkTome.getName();
     vector<string> inv = hero.inventory;

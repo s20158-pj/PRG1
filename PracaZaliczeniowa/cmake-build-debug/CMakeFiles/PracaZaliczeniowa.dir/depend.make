@@ -98,6 +98,9 @@ CMakeFiles/PracaZaliczeniowa.dir/Sea.cpp.o: ../Field.h
 CMakeFiles/PracaZaliczeniowa.dir/Sea.cpp.o: ../Sea.cpp
 CMakeFiles/PracaZaliczeniowa.dir/Sea.cpp.o: ../Sea.h
 
+CMakeFiles/PracaZaliczeniowa.dir/Temple.cpp.o: ../Temple.cpp
+CMakeFiles/PracaZaliczeniowa.dir/Temple.cpp.o: ../Temple.h
+
 CMakeFiles/PracaZaliczeniowa.dir/Wolf.cpp.o: ../RollDice.h
 CMakeFiles/PracaZaliczeniowa.dir/Wolf.cpp.o: ../Wolf.cpp
 CMakeFiles/PracaZaliczeniowa.dir/Wolf.cpp.o: ../Wolf.h
@@ -117,7 +120,4 @@ CMakeFiles/PracaZaliczeniowa.dir/main.cpp.o: ../RollDice.h
 CMakeFiles/PracaZaliczeniowa.dir/main.cpp.o: ../Sea.h
 CMakeFiles/PracaZaliczeniowa.dir/main.cpp.o: ../Wolf.h
 CMakeFiles/PracaZaliczeniowa.dir/main.cpp.o: ../main.cpp
-
-CMakeFiles/PracaZaliczeniowa.dir/temple.cpp.o: ../temple.cpp
-CMakeFiles/PracaZaliczeniowa.dir/temple.cpp.o: ../temple.h
 

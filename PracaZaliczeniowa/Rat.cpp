@@ -23,14 +23,14 @@ void Rat::fight(int strength) {
     int ratStr = (Rat::strength + rollDice.rolling2());
     if (!Rat::wasDefeat) {
         if (charStr > ratStr) {
-            cout << "wygrałeś\n";
+            cout << "Mimo długiej i ciężkiej walki twój przeciwnik musiał ugiąć się pod twoją siłą.\n"
+                    "Udało ci się. Wygrałeś.\n\n";
             Rat::wasDefeat = true;
         } else if (charStr == ratStr) {
-            cout << "remis\n";
+            cout << "Twój przeciwnik się poddaje. Widać, że poraniony odchodzi, ale ty też nie jesteś w pełny sił. \n"
+                    "Mimo, że jesteś blisko wygranej, decydujesz nie kontynuować walki i zaakcpetować równość waszej siły \n\n";
         } else if (charStr < ratStr) {
-            cout << "przegrałeś\n";
-            //hero.setXCoord(hero.getBackupXCoord());
-            //hero.setYCoord(hero.getBackupYCoord());
+            cout << "Niestety twoje siły nie wystraczyły na pokonanie przeciwnika. Podejmujesz decyzje o ucieczce.To jedyne co możesz zrobić.\n\n";
         }
     } else if (Rat::wasDefeat) {
         cout << "Już wygrałeś\n";

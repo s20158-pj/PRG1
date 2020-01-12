@@ -23,9 +23,9 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Rat.cpp" "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/CMakeFiles/PracaZaliczeniowa.dir/Rat.cpp.o"
   "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/RollDice.cpp" "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/CMakeFiles/PracaZaliczeniowa.dir/RollDice.cpp.o"
   "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Sea.cpp" "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/CMakeFiles/PracaZaliczeniowa.dir/Sea.cpp.o"
+  "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Temple.cpp" "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/CMakeFiles/PracaZaliczeniowa.dir/Temple.cpp.o"
   "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Wolf.cpp" "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/CMakeFiles/PracaZaliczeniowa.dir/Wolf.cpp.o"
   "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/main.cpp" "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/CMakeFiles/PracaZaliczeniowa.dir/main.cpp.o"
-  "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/temple.cpp" "/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/CMakeFiles/PracaZaliczeniowa.dir/temple.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

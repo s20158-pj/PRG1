@@ -204,6 +204,12 @@
 		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Sea.h">
 			<Option target="PracaZaliczeniowa"/>
 		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Temple.cpp">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
+		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Temple.h">
+			<Option target="PracaZaliczeniowa"/>
+		</Unit>
 		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Wolf.cpp">
 			<Option target="PracaZaliczeniowa"/>
 		</Unit>
@@ -211,12 +217,6 @@
 			<Option target="PracaZaliczeniowa"/>
 		</Unit>
 		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/main.cpp">
-			<Option target="PracaZaliczeniowa"/>
-		</Unit>
-		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/temple.cpp">
-			<Option target="PracaZaliczeniowa"/>
-		</Unit>
-		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/temple.h">
 			<Option target="PracaZaliczeniowa"/>
 		</Unit>
 		<Unit filename="/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/CMakeLists.txt">

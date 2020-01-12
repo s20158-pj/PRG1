@@ -20,7 +20,10 @@ public:
     int getStrength();
     int getExperience();
     void setDefeat(bool defeat);
-    string description = "Widzisz goblina!\n";
+    string description = "Idąc lasem zauważasz truchło szczura. Kompletnie okrojone z mięsa. W ciszy słyszysz odgłosy.\n"
+                         "Przypominają bulgotanie bądź próby powiedzenia czegoś. Nagle widzisz, że z krzaku wychodzi \n"
+                         "duża, zielona, humanoidalną postać. Pierwszym raz widzisz postać w stylu. Przypomina jakiegoś goblina \n"
+                         "z gier Skyrima. Patrzy na ciebie wyłupiastymi ślepiami. PO chwili rzuca się na ciebie.";
     void fight(int strength);
 };
 

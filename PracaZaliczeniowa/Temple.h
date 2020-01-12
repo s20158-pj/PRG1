@@ -6,7 +6,7 @@
 #define PRACAZALICZENIOWA_TEMPLE_H
 
 
-class temple {
+class Temple {
 
 };
 

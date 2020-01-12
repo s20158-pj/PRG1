@@ -17,7 +17,9 @@ public:
     int getExperience();
     bool wasDefeat = true;
     void setDefeat(bool defeat);
-    string description = "Widzisz szczura!\n";
+    string description = "Idąc lasem nagle słyszysz jakiś szelestz krzaków i dziwny pisk.\n"
+                         "Z krzaków wychodzi wielki szczur. Wielki jakby od małego żarł metanabol.\n"
+                         "Syczy agresywnie na ciebie. Chyba nie masz innego wyboru tylko podjąć walkę.\n\n";
     void fight(int strength);
 
 private:

@@ -636,6 +636,33 @@ Sea.cpp.s:
 	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Sea.cpp.s
 .PHONY : Sea.cpp.s
 
+Temple.o: Temple.cpp.o
+
+.PHONY : Temple.o
+
+# target to build an object file
+Temple.cpp.o:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Temple.cpp.o
+.PHONY : Temple.cpp.o
+
+Temple.i: Temple.cpp.i
+
+.PHONY : Temple.i
+
+# target to preprocess a source file
+Temple.cpp.i:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Temple.cpp.i
+.PHONY : Temple.cpp.i
+
+Temple.s: Temple.cpp.s
+
+.PHONY : Temple.s
+
+# target to generate assembly for a file
+Temple.cpp.s:
+	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/Temple.cpp.s
+.PHONY : Temple.cpp.s
+
 Wolf.o: Wolf.cpp.o
 
 .PHONY : Wolf.o
@@ -689,33 +716,6 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/main.cpp.s
 .PHONY : main.cpp.s
-
-temple.o: temple.cpp.o
-
-.PHONY : temple.o
-
-# target to build an object file
-temple.cpp.o:
-	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/temple.cpp.o
-.PHONY : temple.cpp.o
-
-temple.i: temple.cpp.i
-
-.PHONY : temple.i
-
-# target to preprocess a source file
-temple.cpp.i:
-	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/temple.cpp.i
-.PHONY : temple.cpp.i
-
-temple.s: temple.cpp.s
-
-.PHONY : temple.s
-
-# target to generate assembly for a file
-temple.cpp.s:
-	$(MAKE) -f CMakeFiles/PracaZaliczeniowa.dir/build.make CMakeFiles/PracaZaliczeniowa.dir/temple.cpp.s
-.PHONY : temple.cpp.s
 
 # Help Target
 help:
@@ -783,15 +783,15 @@ help:
 	@echo "... Sea.o"
 	@echo "... Sea.i"
 	@echo "... Sea.s"
+	@echo "... Temple.o"
+	@echo "... Temple.i"
+	@echo "... Temple.s"
 	@echo "... Wolf.o"
 	@echo "... Wolf.i"
 	@echo "... Wolf.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... temple.o"
-	@echo "... temple.i"
-	@echo "... temple.s"
 .PHONY : help
 
 

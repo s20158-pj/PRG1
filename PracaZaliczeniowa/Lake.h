@@ -12,7 +12,13 @@ class Lake: public Field {
     bool hasItem=false;
     bool hasMonster=false;
     bool movable=false;
-    string description="Widzisz zajebiaszcze jezioro.\n";
+    string description="Idąc lasem zauważasz wielkie jezioro. Akwen wodny rozciągający się daleko, \n\n"
+                       " aż po horyzont. Nie widzisz żadnej łodzi, ani promu, ani żadnej innej formy transpotu. \n"
+                       " Decydujesz się spróbowac przepłynąć.\n\n"
+                       "To nie był dobry pomysł\n\n"
+                       "Z jakiegoś powodu czujesz jakby przebywanie w wodzie niemalże natychmiast zabierała ci całą siłę.\n"
+                       "Niemalże od razu od wejścia czujesz się niezwykle zmęczony. Decydujesz się wyjść z wody. \n"
+                       "Stwierdzasz, że to pewnie nie jest dobry pomysł próbować przepływać jeziora na tej wyspie. \n\n";
 public:
     void makeEvent();
     bool getMoveble();

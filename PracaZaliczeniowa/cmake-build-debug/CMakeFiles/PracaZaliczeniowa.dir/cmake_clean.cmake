@@ -18,9 +18,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/PracaZaliczeniowa.dir/Rat.cpp.o"
   "CMakeFiles/PracaZaliczeniowa.dir/RollDice.cpp.o"
   "CMakeFiles/PracaZaliczeniowa.dir/Sea.cpp.o"
+  "CMakeFiles/PracaZaliczeniowa.dir/Temple.cpp.o"
   "CMakeFiles/PracaZaliczeniowa.dir/Wolf.cpp.o"
   "CMakeFiles/PracaZaliczeniowa.dir/main.cpp.o"
-  "CMakeFiles/PracaZaliczeniowa.dir/temple.cpp.o"
   "PracaZaliczeniowa"
   "PracaZaliczeniowa.pdb"
 )

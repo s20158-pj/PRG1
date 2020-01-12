@@ -304,18 +304,18 @@ CMakeFiles/PracaZaliczeniowa.dir/Earth.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PracaZaliczeniowa.dir/Earth.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Earth.cpp -o CMakeFiles/PracaZaliczeniowa.dir/Earth.cpp.s
 
-CMakeFiles/PracaZaliczeniowa.dir/temple.cpp.o: CMakeFiles/PracaZaliczeniowa.dir/flags.make
-CMakeFiles/PracaZaliczeniowa.dir/temple.cpp.o: ../temple.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/PracaZaliczeniowa.dir/temple.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PracaZaliczeniowa.dir/temple.cpp.o -c /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/temple.cpp
+CMakeFiles/PracaZaliczeniowa.dir/Temple.cpp.o: CMakeFiles/PracaZaliczeniowa.dir/flags.make
+CMakeFiles/PracaZaliczeniowa.dir/Temple.cpp.o: ../Temple.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/PracaZaliczeniowa.dir/Temple.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PracaZaliczeniowa.dir/Temple.cpp.o -c /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Temple.cpp
 
-CMakeFiles/PracaZaliczeniowa.dir/temple.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PracaZaliczeniowa.dir/temple.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/temple.cpp > CMakeFiles/PracaZaliczeniowa.dir/temple.cpp.i
+CMakeFiles/PracaZaliczeniowa.dir/Temple.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PracaZaliczeniowa.dir/Temple.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Temple.cpp > CMakeFiles/PracaZaliczeniowa.dir/Temple.cpp.i
 
-CMakeFiles/PracaZaliczeniowa.dir/temple.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PracaZaliczeniowa.dir/temple.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/temple.cpp -o CMakeFiles/PracaZaliczeniowa.dir/temple.cpp.s
+CMakeFiles/PracaZaliczeniowa.dir/Temple.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PracaZaliczeniowa.dir/Temple.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nomuron/Dokumenty/PRG1/PracaZaliczeniowa/Temple.cpp -o CMakeFiles/PracaZaliczeniowa.dir/Temple.cpp.s
 
 CMakeFiles/PracaZaliczeniowa.dir/Belt.cpp.o: CMakeFiles/PracaZaliczeniowa.dir/flags.make
 CMakeFiles/PracaZaliczeniowa.dir/Belt.cpp.o: ../Belt.cpp
@@ -364,7 +364,7 @@ PracaZaliczeniowa_OBJECTS = \
 "CMakeFiles/PracaZaliczeniowa.dir/Corrupted.cpp.o" \
 "CMakeFiles/PracaZaliczeniowa.dir/Air.cpp.o" \
 "CMakeFiles/PracaZaliczeniowa.dir/Earth.cpp.o" \
-"CMakeFiles/PracaZaliczeniowa.dir/temple.cpp.o" \
+"CMakeFiles/PracaZaliczeniowa.dir/Temple.cpp.o" \
 "CMakeFiles/PracaZaliczeniowa.dir/Belt.cpp.o" \
 "CMakeFiles/PracaZaliczeniowa.dir/DarkTome.cpp.o"
 
@@ -390,7 +390,7 @@ PracaZaliczeniowa: CMakeFiles/PracaZaliczeniowa.dir/Holy.cpp.o
 PracaZaliczeniowa: CMakeFiles/PracaZaliczeniowa.dir/Corrupted.cpp.o
 PracaZaliczeniowa: CMakeFiles/PracaZaliczeniowa.dir/Air.cpp.o
 PracaZaliczeniowa: CMakeFiles/PracaZaliczeniowa.dir/Earth.cpp.o
-PracaZaliczeniowa: CMakeFiles/PracaZaliczeniowa.dir/temple.cpp.o
+PracaZaliczeniowa: CMakeFiles/PracaZaliczeniowa.dir/Temple.cpp.o
 PracaZaliczeniowa: CMakeFiles/PracaZaliczeniowa.dir/Belt.cpp.o
 PracaZaliczeniowa: CMakeFiles/PracaZaliczeniowa.dir/DarkTome.cpp.o
 PracaZaliczeniowa: CMakeFiles/PracaZaliczeniowa.dir/build.make
